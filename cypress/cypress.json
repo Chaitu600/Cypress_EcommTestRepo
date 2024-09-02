@@ -1,0 +1,10 @@
+{
+    "baseUrl": "https://www.amazon.in",
+    "viewportWidth": 1280,
+    "viewportHeight": 720,
+    "reporter": "junit",
+    "reporterOptions": {
+      "mochaFile": "reports/test-results-[hash].xml",
+      "toConsole": true
+    }
+  }
