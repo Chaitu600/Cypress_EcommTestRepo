@@ -1,0 +1,116 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 0,
+    "pending": 0,
+    "failures": 1,
+    "start": "2024-09-05T21:24:10.668Z",
+    "end": "2024-09-05T21:25:01.752Z",
+    "duration": 51084,
+    "testsRegistered": 1,
+    "passPercent": 0,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "d9f5aed9-9985-4d4c-bf10-4ffd08afbaac",
+      "title": "",
+      "fullFile": "cypress\\e2e\\integration\\frontend\\RelianceDigital\\TC02_AddToCart.cy.js",
+      "file": "cypress\\e2e\\integration\\frontend\\RelianceDigital\\TC02_AddToCart.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "f7487a72-c863-4db4-8e72-7f239c6b171a",
+          "title": "Croma Frontend Price Retrieval",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Fetches the price of the first laptop from Croma",
+              "fullTitle": "Croma Frontend Price Retrieval Fetches the price of the first laptop from Croma",
+              "timedOut": null,
+              "duration": 44082,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "",
+              "err": {
+                "message": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `.HyGjh`, but never found it.",
+                "estack": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `.HyGjh`, but never found it.\n    at Context.eval (webpack://cypress_ecommtestrepo/./cypress/e2e/integration/frontend/RelianceDigital/TC02_AddToCart.cy.js:34:21)",
+                "diff": null
+              },
+              "uuid": "fa0ba8d3-834c-44a8-b661-5cb39989d75b",
+              "parentUUID": "f7487a72-c863-4db4-8e72-7f239c6b171a",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "fa0ba8d3-834c-44a8-b661-5cb39989d75b"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 44082,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": false
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reporterDir": "cypress/reports",
+        "overwrite": false,
+        "saveHtml": true,
+        "embeddedScreenshots": true,
+        "inlineAssests": true,
+        "saveAllAtempts": true,
+        "code": false,
+        "reportPageTitle": "Cypress-Test-Results",
+        "html": false,
+        "json": true,
+        "reportDir": "cypress\\reports\\html\\.jsons"
+      },
+      "version": "6.2.0"
+    }
+  }
+}

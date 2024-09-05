@@ -1,13 +1,21 @@
+// This file is required to make `npm run tsc` work.
 {
   "compilerOptions": {
-    "target": "ES6",
-    "module": "commonjs",
-    "lib": ["es6", "dom"],
-    "strict": true,
+    "target": "es6",
+    "moduleResolution": "node",
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
     "esModuleInterop": true,
-    "skipLibCheck": true,
-    "types": ["cypress","node"]
+    "rootDir": ".",
+    "lib": ["es6", "dom"],
+    "types": ["cypress", "node"],
+    "baseUrl": ".",
+    "paths": {
+      "@fixtures/*": ["fixtures/*"],
+      "@samples/*": ["fixtures/samples/*"],
+      "@services/*": ["support/services/*"],
+      "@support/*": ["support/*"]
+    }
   },
   "include": ["**/*.ts"]
-
 }

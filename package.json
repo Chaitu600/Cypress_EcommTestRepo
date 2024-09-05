@@ -13,6 +13,7 @@
     "@types/chai": "^4.3.19",
     "@types/cypress": "^0.1.6",
     "@types/jest": "^29.5.12",
+   
     "@types/mocha": "^10.0.7",
     "chai": "^5.1.1",
     "cypress": "^13.14.2",
