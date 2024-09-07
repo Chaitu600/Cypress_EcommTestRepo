@@ -1,9 +1,9 @@
 pipeline {
     agent any
-
-    tools {
-        // Make sure NodeJS is configured in Jenkins
-        nodejs 'NodeJS 16.x'
+        
+    environment {
+        NODEJS_HOME = tool name: 'NodeJS', type: 'NodeJSInstallation'
+        PATH = "${NODEJS_HOME}/bin:${env.PATH}"
     }
 
     stages {
