@@ -1,6 +1,8 @@
-describe('Croma Frontend Price Retrieval', () => {
+// Here we are just searching the product 
 
-  it('Fetches the price of the first laptop from Croma', () => {
+describe('TC01_ProductSearch_Croma', () => {
+
+  it('This Test case is created to search the product', () => {
     cy.visit('https://www.croma.com');
 
     // Close any popup or modal that may appear

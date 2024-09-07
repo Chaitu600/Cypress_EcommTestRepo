@@ -1,8 +1,5 @@
-
-
-
-
-describe('Croma Frontend Price Retrieval', () => {
+//Description Here we are capturing the prize value and adding the product to cart 
+describe('TC03_CheckOut_Croma', () => {
 
     it('Fetches the price of the first laptop from Croma', () => {
       cy.visit('https://www.croma.com');

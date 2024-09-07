@@ -12,8 +12,8 @@ const BaseUrl = CommonConstants.BaseUrl;
 const header = BodyProvider.bodyUpdate(HeaderBodyTest.result)
 
 describe('TC01_Get_JsonPlaceHolderAPI', () => {
-  it('GET - Fetch all posts', () => {
-    makeRequest(RequestMethods.GET,BaseUrl,header)
+  it('This test case id create to use GET and Fetch all posts', () => {
+    makeRequest(RequestMethods.GET,BaseUrl,undefined,header)
       .then((response) => {
         expect(response.status).to.eq(200);
         expect(response.body).to.have.length(100); 

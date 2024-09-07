@@ -12,9 +12,8 @@ const BaseUrl = CommonConstants.BaseUrl;
 const body = BodyProvider.bodyUpdate(TestBodyJson.result);
 const Header = BodyProvider.bodyUpdate(HeaderBodyTest.result)
 describe('TC02_Post_JsonPlaceHolder.cy', () => {
-  it('Post - Fetch all posts', () => {
-    makeRequest(RequestMethods.POST,BaseUrl,Header,body)
-      .then((response) => {
+  it('This test case is cretaed to use Post and Fetch the posts', () => {
+    makeRequest(RequestMethods.POST,BaseUrl,undefined,Header,body).then((response) => {
         expect(response.status).to.eq(201);
         expect(response.body.title).to.eq('foo');
         expect(response.body.body).to.eq('bar');
