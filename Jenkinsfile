@@ -1,7 +1,7 @@
 pipeline {
     agent any
     tools {
-        nodejs 'NodeJS 16.x'  // Ensure this matches your NodeJS installation
+        nodejs 'NodeJs 20.x'  // Ensure this matches your NodeJS installation
     }
     stages {
         stage('Checkout') {
