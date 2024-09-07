@@ -4,7 +4,7 @@
   "description": "This repo is to create an E2E Automation test suite as a Assessment task",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "cypress run"
   },
   "keywords": [],
   "author": "",

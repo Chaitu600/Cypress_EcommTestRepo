@@ -1,0 +1,580 @@
+{
+  "stats": {
+    "suites": 13,
+    "tests": 13,
+    "passes": 13,
+    "pending": 0,
+    "failures": 0,
+    "start": "2024-09-07T13:21:10.783Z",
+    "end": "2024-09-07T13:21:23.152Z",
+    "duration": 12369,
+    "testsRegistered": 13,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "7c75c49b-38b9-4aa8-973a-bb8057744c0d",
+      "title": "",
+      "fullFile": "cypress\\e2e\\Specs\\BackEnd.spec.cy.ts",
+      "file": "cypress\\e2e\\Specs\\BackEnd.spec.cy.ts",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "3b0c0778-d934-466c-a602-761e7cf18eb5",
+          "title": "TC01_Get_JsonPlaceHolderAPI",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "This test case id create to use GET and Fetch all posts",
+              "fullTitle": "TC01_Get_JsonPlaceHolderAPI This test case id create to use GET and Fetch all posts",
+              "timedOut": null,
+              "duration": 256,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "",
+              "err": {},
+              "uuid": "e3bb01ee-9229-478c-97bf-0d02ec778e9c",
+              "parentUUID": "3b0c0778-d934-466c-a602-761e7cf18eb5",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "e3bb01ee-9229-478c-97bf-0d02ec778e9c"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 256,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "9ed372bc-805a-4e0b-93a6-d19368d7433b",
+          "title": "TC02_Post_JsonPlaceHolder.cy",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "This test case is cretaed to use Post and Fetch the posts",
+              "fullTitle": "TC02_Post_JsonPlaceHolder.cy This test case is cretaed to use Post and Fetch the posts",
+              "timedOut": null,
+              "duration": 753,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "",
+              "err": {},
+              "uuid": "d906d4ba-0a20-481a-98c5-f4e0cddbc616",
+              "parentUUID": "9ed372bc-805a-4e0b-93a6-d19368d7433b",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "d906d4ba-0a20-481a-98c5-f4e0cddbc616"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 753,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "10bb4bf1-1a5f-4144-8513-a1a86089903a",
+          "title": "JTC03_Put_JsonPlaceHolderAPI.cy",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "This test case is created to use PUT to Update an existing post",
+              "fullTitle": "JTC03_Put_JsonPlaceHolderAPI.cy This test case is created to use PUT to Update an existing post",
+              "timedOut": null,
+              "duration": 734,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "",
+              "err": {},
+              "uuid": "44b90ff5-6826-4309-a16c-5fb259e57f6b",
+              "parentUUID": "10bb4bf1-1a5f-4144-8513-a1a86089903a",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "44b90ff5-6826-4309-a16c-5fb259e57f6b"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 734,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "43668e09-c6cc-498c-812c-93e16c458291",
+          "title": "TC04_Delete_JsonPlaceHolderAPI",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "This test case is create to use DELETE method and Delete a post",
+              "fullTitle": "TC04_Delete_JsonPlaceHolderAPI This test case is create to use DELETE method and Delete a post",
+              "timedOut": null,
+              "duration": 335,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "",
+              "err": {},
+              "uuid": "5aa756c3-e5e6-401c-a451-a708ffba9056",
+              "parentUUID": "43668e09-c6cc-498c-812c-93e16c458291",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "5aa756c3-e5e6-401c-a451-a708ffba9056"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 335,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "b6e7ba20-4585-4466-9175-c2b558536f95",
+          "title": "TC01_Negative_UsingPutMethod_SendInvalidID.cy",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "This test case is created to update a non-existing post",
+              "fullTitle": "TC01_Negative_UsingPutMethod_SendInvalidID.cy This test case is created to update a non-existing post",
+              "timedOut": null,
+              "duration": 765,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "",
+              "err": {},
+              "uuid": "279f7e75-e78a-4cf9-a00e-3bcf44e1b312",
+              "parentUUID": "b6e7ba20-4585-4466-9175-c2b558536f95",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "279f7e75-e78a-4cf9-a00e-3bcf44e1b312"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 765,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "6d39aeea-fa00-4d15-9c0a-67a471b7f721",
+          "title": "TC02_Negative_Delete_InvalidID.cy",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Thsi test case is created to update a non-existing post",
+              "fullTitle": "TC02_Negative_Delete_InvalidID.cy Thsi test case is created to update a non-existing post",
+              "timedOut": null,
+              "duration": 285,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "",
+              "err": {},
+              "uuid": "076c471e-26ba-432e-8a23-9b6850715f4b",
+              "parentUUID": "6d39aeea-fa00-4d15-9c0a-67a471b7f721",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "076c471e-26ba-432e-8a23-9b6850715f4b"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 285,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "3255df96-a698-4b9c-a304-de69b14ce457",
+          "title": "TC03_Negative_Create_NewPostUsing.InvalidUrl.cy",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "This test case is cretaed to use to creata post using invalid baseUrl",
+              "fullTitle": "TC03_Negative_Create_NewPostUsing.InvalidUrl.cy This test case is cretaed to use to creata post using invalid baseUrl",
+              "timedOut": null,
+              "duration": 284,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "",
+              "err": {},
+              "uuid": "f69a6900-0ecb-452c-b6cb-06115624d34c",
+              "parentUUID": "3255df96-a698-4b9c-a304-de69b14ce457",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "f69a6900-0ecb-452c-b6cb-06115624d34c"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 284,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "37c3d461-7b95-4ed6-9ae2-f47d5e2a4924",
+          "title": "TC04_Negative_FeatchIvalidPost",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "This test case is cretaed to use Featch invalid Url",
+              "fullTitle": "TC04_Negative_FeatchIvalidPost This test case is cretaed to use Featch invalid Url",
+              "timedOut": null,
+              "duration": 82,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "",
+              "err": {},
+              "uuid": "06637629-0355-43dd-a306-4a8a76674210",
+              "parentUUID": "37c3d461-7b95-4ed6-9ae2-f47d5e2a4924",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "06637629-0355-43dd-a306-4a8a76674210"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 82,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "3d9e0cb1-eafe-43d4-9ce2-104005a533e2",
+          "title": "TC05_Negative_CreatePost_withNoRequestBody",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "This test case is cretaed to create new post with no request body",
+              "fullTitle": "TC05_Negative_CreatePost_withNoRequestBody This test case is cretaed to create new post with no request body",
+              "timedOut": null,
+              "duration": 295,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "",
+              "err": {},
+              "uuid": "297305d2-e62c-421e-bf74-efd56afcf3ba",
+              "parentUUID": "3d9e0cb1-eafe-43d4-9ce2-104005a533e2",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "297305d2-e62c-421e-bf74-efd56afcf3ba"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 295,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "7b2bfff6-0b5c-40a4-a1fb-80ca883f8bc3",
+          "title": "TC06_Negative_CreatePost_withEmptyBody",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "This test case is cretaed to create new post with empty body",
+              "fullTitle": "TC06_Negative_CreatePost_withEmptyBody This test case is cretaed to create new post with empty body",
+              "timedOut": null,
+              "duration": 283,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "",
+              "err": {},
+              "uuid": "ba2aaa40-d9ed-4f3c-b7eb-db5f336f3717",
+              "parentUUID": "7b2bfff6-0b5c-40a4-a1fb-80ca883f8bc3",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "ba2aaa40-d9ed-4f3c-b7eb-db5f336f3717"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 283,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "b3af4cdb-c8da-4291-ad96-852289562858",
+          "title": "TC07_Negative_CreatePost_withInvalidRequestBody",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "This test case is cretaed to create new post with invalid body",
+              "fullTitle": "TC07_Negative_CreatePost_withInvalidRequestBody This test case is cretaed to create new post with invalid body",
+              "timedOut": null,
+              "duration": 297,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "",
+              "err": {},
+              "uuid": "33e561b7-b52c-466e-accc-6758cfc733f9",
+              "parentUUID": "b3af4cdb-c8da-4291-ad96-852289562858",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "33e561b7-b52c-466e-accc-6758cfc733f9"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 297,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "59d0ba33-ab6b-4e14-8cfd-a31116d174f2",
+          "title": "TC08_Negative_UpdatePost_Invalid_RequestBody.cy",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "This test case is cretaed to Update post with invalid body",
+              "fullTitle": "TC08_Negative_UpdatePost_Invalid_RequestBody.cy This test case is cretaed to Update post with invalid body",
+              "timedOut": null,
+              "duration": 277,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "",
+              "err": {},
+              "uuid": "b88c3801-5980-409b-a581-90496dd0dc84",
+              "parentUUID": "59d0ba33-ab6b-4e14-8cfd-a31116d174f2",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "b88c3801-5980-409b-a581-90496dd0dc84"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 277,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "8ecc6575-55de-4d1f-a621-182964a6899e",
+          "title": "TC09_PassingLargePayload_RequestBody.cy",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "This test case is cretaed to create new post with large Pay Load body",
+              "fullTitle": "TC09_PassingLargePayload_RequestBody.cy This test case is cretaed to create new post with large Pay Load body",
+              "timedOut": null,
+              "duration": 6904,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "",
+              "err": {},
+              "uuid": "a709e20f-1393-4c01-8dda-4917d9794d08",
+              "parentUUID": "8ecc6575-55de-4d1f-a621-182964a6899e",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "a709e20f-1393-4c01-8dda-4917d9794d08"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 6904,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": false
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reporterDir": "cypress/reports",
+        "overwrite": false,
+        "saveHtml": true,
+        "embeddedScreenshots": true,
+        "inlineAssests": true,
+        "saveAllAtempts": true,
+        "code": false,
+        "reportPageTitle": "Cypress-Test-Results",
+        "html": false,
+        "json": true,
+        "reportDir": "cypress\\reports\\html\\.jsons"
+      },
+      "version": "6.2.0"
+    }
+  }
+}

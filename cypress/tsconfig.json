@@ -17,5 +17,5 @@
       "@support/*": ["support/*"]
     }
   },
-  "include": ["**/*.ts", "e2e/Specs/FrontEnd.spec.cy.js"]
+  "include": ["**/*.ts", "e2e/Specs/FrontEnd.spec.cy.js","**/*.js"]
 }
