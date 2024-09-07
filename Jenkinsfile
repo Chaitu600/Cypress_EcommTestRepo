@@ -1,12 +1,14 @@
 pipeline {
     agent any
     tools {
-        nodejs 'NodeJs 20.x'  // Ensure this matches your NodeJS installation
+        nodejs 'NodeJS 16.x'
     }
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/Chaitu600/Cypress_EcommTestRepo'
+                retry(3) {
+                    git branch: 'main', url: 'https://github.com/Chaitu600/Cypress_EcommTestRepo'
+                }
             }
         }
         stage('Install Dependencies') {
