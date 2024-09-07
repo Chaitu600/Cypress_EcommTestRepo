@@ -7,7 +7,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Checkout the repository code from Git
-                git 'https://github.com/your-repo-link.git'
+                git 'https://github.com/Chaitu600/Cypress_EcommTestRepo'
             }
         }
         stage('Install Dependencies') {
