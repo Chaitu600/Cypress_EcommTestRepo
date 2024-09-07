@@ -1,6 +1,7 @@
-describe('Croma Frontend Price Retrieval', () => {
+// Description: Here we are adding and validating the cart
+describe('TC02_AddToCart_Reliance', () => {
 
-  it('Fetches the price of the first laptop from Croma', () => {
+  it('Fetches the price of the first laptop from Reliance', () => {
     cy.visit('https://www.reliancedigital.in');
 
     cy.wait(10000)
@@ -31,6 +32,6 @@ describe('Croma Frontend Price Retrieval', () => {
     cy.get('#RIL_PDPInputPincode').type('500045'); 
 
     cy.get('#add_to_cart_main_btn').click();
-    cy.get('.HyGjh').should('contain','(1 Items)');
+    cy.get('.TextWeb__Text-sc-1cyx778-0.HyGjh').should('contain','(1 Items)');
   });
 });

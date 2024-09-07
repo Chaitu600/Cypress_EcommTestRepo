@@ -1,6 +1,5 @@
 
-
-
+// Description : Here we add proceeding till check out 
 
 describe('TC03_ProceedToCheckOut_Reliance', () => {
 
@@ -31,10 +30,11 @@ describe('TC03_ProceedToCheckOut_Reliance', () => {
     
     // Wait for the results to load and retrieve the price of the first listed laptop
     cy.get("span[class='TextWeb__Text-sc-1cyx778-0 kFBgPo'] span:nth-child(2)").invoke('text').then((text) => {
-      const cromaPrice = parseInt(text.replace(/[^0-9]/g, ''));
+      const reliancePrice = parseInt(text.replace(/[^0-9]/g, ''));
       
       // Store the Croma price for comparison
-      cy.wrap(cromaPrice).as('cromaPrice');
+      cy.wrap(reliancePrice).as('reliancePrice');
+      cy.log(reliancePrice)
     });
 
     // Click the "Add to Cart" button
@@ -45,7 +45,7 @@ describe('TC03_ProceedToCheckOut_Reliance', () => {
     cy.get('#RIL_PDPInputPincode').type('500045'); 
 
     cy.get('#add_to_cart_main_btn').click();
-    cy.get('.HyGjh').should('contain','(1 Items)');
+    cy.get('.TextWeb__Text-sc-1cyx778-0.HyGjh').should('contain','(1 Items)');
     cy.get('body > div:nth-child(1) > main:nth-child(5) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > button:nth-child(1)').click();
     // will navigate to loginin page 
     cy.get('.TextWeb__Text-sc-1cyx778-0.LoginContent__Title-sc-1srtv8x-0.cXyRgU.fYYiwl').should('contain','Login');

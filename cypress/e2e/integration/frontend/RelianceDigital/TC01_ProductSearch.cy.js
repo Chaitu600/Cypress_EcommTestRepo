@@ -1,7 +1,7 @@
-// Description here we are just searching for the product 
+// Description here we are just searching for the product on Reliance Website
 
 
-describe('TC01_ProductSearch', () => {
+describe('TC01_ProductSearch_Reliance', () => {
 
   it('search the laptop from Reliancedigital website', () => {
     cy.visit('https://www.reliancedigital.in');

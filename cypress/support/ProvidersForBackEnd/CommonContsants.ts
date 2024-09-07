@@ -1,4 +1,4 @@
 export enum CommonConstants {
-    BaseUrl = "https://jsonplaceholder.typicode.com/posts" 
+    BaseUrl = "https://jsonplaceholder.typicode.com/posts",
 }
 

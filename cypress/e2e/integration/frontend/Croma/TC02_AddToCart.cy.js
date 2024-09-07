@@ -1,5 +1,7 @@
-describe('Add Product to Cart', () => {
-  it('Should add the first laptop from search results to the cart', () => {
+//Here we are adding the Product and validating it 
+
+describe('Add Product to Cart in Croma', () => {
+  it('This test case is created to add the product into cart and validate it ', () => {
     cy.visit('https://www.croma.com');
     
      // Close any popup or modal that may appear

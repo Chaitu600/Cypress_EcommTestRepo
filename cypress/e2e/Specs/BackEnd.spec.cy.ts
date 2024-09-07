@@ -1,0 +1,15 @@
+// reason I have created Spec file for jenkins prosperous so we can add only those which we wont to run on jenkins if there is any failure alos we can easily those scripts 
+
+import 'e2e/integration/BackEnd/PositiveScenarios/TC01_Get_JsonPlaceHolderAPI.cy'
+import 'e2e/integration/BackEnd/PositiveScenarios/TC02_Post_JsonPlaceHolder.cy'
+import 'e2e/integration/BackEnd/PositiveScenarios/TC03_Put_JsonPlaceHolderAPI.cy'
+import 'e2e/integration/BackEnd/PositiveScenarios/TC04_Delete_JsonPlaceHolderAPI.cy'
+import 'e2e/integration/BackEnd/NegativeScenarios/TC01_Negative_UsingPutMethod_SendInvalidID.cy'
+import 'e2e/integration/BackEnd/NegativeScenarios/TC02_Negative_Delete_InvalidID.cy'
+import 'e2e/integration/BackEnd/NegativeScenarios/TC03_Negative_Create_NewPostUsing.InvalidUrl.cy'
+import 'e2e/integration/BackEnd/NegativeScenarios/TC04_Negative_FeatchIvalidPost.cy'
+import 'e2e/integration/BackEnd/NegativeScenarios/TC05_Negative_CreatePost_withNoRequestBody.cy'
+import 'e2e/integration/BackEnd/NegativeScenarios/TC06_Negative_CreatePost_withEmptyBody.cy'
+import 'e2e/integration/BackEnd/NegativeScenarios/TC07_Negative_CreatePost_withInvalidRequestBody.cy'
+import 'e2e/integration/BackEnd/NegativeScenarios/TC08_Negative_UpdatePost_WithInvalid_RequestBody.cy'
+import 'e2e/integration/BackEnd/NegativeScenarios/TC09_PassingLargePayload_RequestBody.cy'
