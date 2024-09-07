@@ -7,7 +7,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 retry(3) {
-                    git branch: 'main', url: 'https://github.com/Chaitu600/Cypress_EcommTestRepo'
+                   git url: 'https://github.com/Chaitu600/Cypress_EcommTestRepo', branch: 'main'
                 }
             }
         }
